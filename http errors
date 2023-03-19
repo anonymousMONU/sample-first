@@ -1,0 +1,9 @@
+
+Code	Explanation
+200 	Application returned normally
+301	  Server asks client to permanently remember a redirect to a new location where the client should access
+302	  Redirect temporarily. Client doesn't need to save this reply
+400 	The client made an invalid request
+403	  The client is not allowed to access this resource. Authorization is required
+404	  The client tried to access a resource which does not exist
+500	  The server errored in trying to fulfill the request
