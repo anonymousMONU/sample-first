@@ -1,0 +1,14 @@
+from selenium import webdriver
+
+driver = webdriver.chrome()		--> drivers from chrome
+
+driver.get("link")				--> request 
+
+
+searchbox = driver.find_element_by_xpath("	xpath ")
+searchbox.send_keya("	search text 	")					-->type auto text on search
+
+
+searchbutton = driver.find_element_by_xpath ("	xpath	")
+
+searchbutton.click()
